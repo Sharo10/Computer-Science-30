@@ -3,4 +3,6 @@
 ## Demos
 - [movingRectangle](MovingRectangle)
 - [GenerativeArt](GenerativeArt)
+- [Bouncing Ball](BouncingBalls)
+- [Cubic Disarray](CubicDisarray)
 ## Projects
