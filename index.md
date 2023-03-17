@@ -6,5 +6,6 @@
 - [GenerativeArt](GenerativeArt)
 - [Bouncing Ball](BouncingBalls)
 - [Cubic Disarray](CubicDisarray)
+- [Bubble movement with perlin noise](BubbleMovement)
 ## Projects
 - [Arrays assignment](ArraysAssignment)
