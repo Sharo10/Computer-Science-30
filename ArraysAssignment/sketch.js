@@ -64,7 +64,7 @@ function drawingGameOver() {
   textAlign(CENTER, CENTER);
   let winner = checkingForWinner();
   if (winner) {
-    text(winner + ' wins!', width/2, height/2);
+    text(winner + ' Wins!', width/2, height/2);
   } else {
     text('Tie!', width/2, height/2);
   }
