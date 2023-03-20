@@ -7,5 +7,6 @@
 - [Bouncing Ball](BouncingBalls)
 - [Cubic Disarray](CubicDisarray)
 - [Bubble movement with perlin noise](BubbleMovement)
+- [Grid Demo](2dGrid)
 ## Projects
 - [Arrays assignment](ArraysAssignment)
