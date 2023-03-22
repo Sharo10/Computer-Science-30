@@ -9,6 +9,7 @@
 - [Bubble movement with perlin noise](BubbleMovement)
 - [Grid Demo](2dGrid)
 - [Color Game](ColorGame)
+- [Conway's game of life](Conways'Game)
 
 
 ## Projects
