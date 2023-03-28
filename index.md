@@ -11,7 +11,7 @@
 - [Color Game](ColorGame)
 - [Conway's game of life](Conways'Game)
 - [Gosper Glider Gun](GliderGun)
-
+- [Character in grid](CharacterInGrid)
 
 ## Projects
 - [Arrays assignment](ArraysAssignment)
