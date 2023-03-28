@@ -15,3 +15,4 @@
 
 ## Projects
 - [Arrays assignment](ArraysAssignment)
+-[2d arrays project](2dArraysProject)
