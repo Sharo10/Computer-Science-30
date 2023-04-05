@@ -1,6 +1,6 @@
-// Conway's Game of life
+// Scribble Demo
 // Ahmed Omar
-// March 22, 2023
+// April 5, 2023
 
 const ROWS = 4;
 const COLS = 4;
