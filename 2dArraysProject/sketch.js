@@ -133,18 +133,18 @@ function countNeighbors(x, y) {
       }
     }
   }
-  return count;
+  return count;  
+}
+
+function keyPressed() {
+  if (key === "r" || key === "R") {
+    resetGame();
   }
+}
   
-  function keyPressed() {
-  if (key === 'r' || key === 'R') {
-  resetGame();
-  }
-  }
-  
-  function resetGame() {
+function resetGame() {
   gameOver = false;
   grid = createEmptyGrid(gridSize, gridSize);
   bombs = [];
   generateBombs(50);
-  }    
+}    
