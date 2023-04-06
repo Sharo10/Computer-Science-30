@@ -3,6 +3,10 @@
 // March 27, 2023
 
 
+// Character Moving in Grid
+// Schellenberg
+// March 27, 2023
+
 let grid;
 
 const ROWS = 20;
