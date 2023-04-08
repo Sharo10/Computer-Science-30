@@ -11,6 +11,11 @@ let cellSize;
 let grid;
 let bombs = [];
 let gameIsOver = false;
+let bombImg;
+
+function preload() {
+  bombImg = loadImage("bomb2.png");
+}
 
 function setup() {
   createCanvas(400, 400);
@@ -73,11 +78,9 @@ function drawGrid(grid) {
   }
 }
 
-//making a function for displaying bombms on the cells
 function displayBombs() {
-  fill(255, 0, 0);
   for (let bomb of bombs) {
-    rect(bomb.x * cellSize, bomb.y * cellSize, cellSize, cellSize);
+    image(bombImg, bomb.x * cellSize, bomb.y * cellSize, cellSize, cellSize);
   }
 }
 
@@ -105,7 +108,6 @@ function updateNeighbors(x, y) {
       if (grid[newY][newX] === 0 && !isBomb(newX, newY)) {
         grid[newY][newX] = 1;
 
-        // applying conway's Game of Life rule that says: if a cell has exactly 3 neighbors, turn it on
         let count = countNeighbors(newX, newY);
         if (count === 3) {
           grid[newY][newX] = 1;
@@ -121,7 +123,7 @@ function updateNeighbors(x, y) {
 function countNeighbors(x, y) {
   let count = 0;
   let neighbors = [
-    [-1, -1], [0, -1], [1, -1],
+    [-1, -1], [0, -1], [1 , -1],
     [-1, 0], [1, 0],
     [-1, 1], [0, 1], [1, 1]
   ];
@@ -138,7 +140,7 @@ function countNeighbors(x, y) {
   return count;
 }
   
-function keysArePressed() {
+function keyPressed() {
   if (key === "r" || key === "R") {
     resetGame();
   }
@@ -149,4 +151,5 @@ function resetGame() {
   grid = createEmptyGrid(gridSize, gridSize);
   bombs = [];
   generateBombs(50);
-}   
+}
+
