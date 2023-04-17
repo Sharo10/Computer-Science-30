@@ -12,6 +12,7 @@
 - [Conway's game of life](Conways'Game)
 - [Gosper Glider Gun](GliderGun)
 - [Character in grid](CharacterInGrid)
+- [Walker](Walker)
 
 ## Projects
 - [Arrays assignment](ArraysAssignment)
