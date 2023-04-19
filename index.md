@@ -13,6 +13,7 @@
 - [Gosper Glider Gun](GliderGun)
 - [Character in grid](CharacterInGrid)
 - [Walker](Walker)
+- [Ball Array OOP](BallArray)
 
 ## Projects
 - [Arrays assignment](ArraysAssignment)
