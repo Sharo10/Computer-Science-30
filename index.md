@@ -14,6 +14,7 @@
 - [Character in grid](CharacterInGrid)
 - [Walker](Walker)
 - [Ball Array OOP](BallArray)
+- [Fractal Circles](FractalCircles)
 
 ## Projects
 - [Arrays assignment](ArraysAssignment)
