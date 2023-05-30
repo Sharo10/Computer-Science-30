@@ -15,6 +15,7 @@
 - [Walker](Walker)
 - [Ball Array OOP](BallArray)
 - [Fractal Circles](FractalCircles)
+- [Multiple JS files](MultipleJSFiles)
 
 ## Projects
 - [Arrays assignment](ArraysAssignment)
