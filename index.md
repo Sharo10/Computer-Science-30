@@ -16,6 +16,7 @@
 - [Ball Array OOP](BallArray)
 - [Fractal Circles](FractalCircles)
 - [Multiple JS files](MultipleJSFiles)
+- [Sierpinski Triangle](SierpinskiTriangle)
 
 ## Projects
 - [Arrays assignment](ArraysAssignment)
