@@ -17,6 +17,7 @@
 - [Fractal Circles](FractalCircles)
 - [Multiple JS files](MultipleJSFiles)
 - [Sierpinski Triangle](SierpinskiTriangle)
+- [Sounds Demo](SoundsDemo)
 
 ## Projects
 - [Arrays assignment](ArraysAssignment)
